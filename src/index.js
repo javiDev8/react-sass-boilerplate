@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-import Test from './components/test.jsx'
+import App from './components/app.jsx'
 
-render(<Test message="hello world" />, document.getElementById('app'))
+render(<App/>, document.getElementById('app'))

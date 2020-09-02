@@ -1,0 +1,19 @@
+$red: #f44;
+$green: #8f8;
+
+button {
+    border: none;
+    border-radius: 7px;
+    &:hover {
+	border: 1px solid black;
+    }
+    &:focus {
+	outline: none;
+    }
+}
+.error {
+    background-color: $red;
+}
+.normal {
+    background-color: $green;
+}
